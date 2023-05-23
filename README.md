@@ -1,6 +1,7 @@
 # golang-application
 # Pre-Requisites
 -Install GoLang
+
 -Install Docker
 # Install GoLang
 -yum install java-1.8.0-openjdk -y
