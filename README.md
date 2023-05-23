@@ -5,9 +5,11 @@
 -Install Docker
 # Install GoLang
 -yum install java-1.8.0-openjdk -y
+
 -yum install golang -y
 # Install Docker
 -yum install docker -y
+
 -service docker start
 # Manual process1:
 -go run helloworld.go
@@ -16,6 +18,7 @@
 
 # Manual process2: (Build binary)
 go build helloworld.go
+
 Run the binary using below command
 
 ./helloworld
@@ -26,9 +29,11 @@ http://54.162.12.189:3000/ image
 -- Build docker image
 
 -docker build -t helloworld:latest .
+
 -Tag image to docker repository
 
 -docker tag helloworld:latest naresh240/helloworld:latest
+
 -push image to docker container
 
 docker login
